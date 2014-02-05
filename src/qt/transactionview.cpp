@@ -25,14 +25,14 @@
 #include <QMenu>
 #include <QLabel>
 #include <QDateTimeEdit>
-
+#include <QColor>
 TransactionView::TransactionView(QWidget *parent) :
     QWidget(parent), model(0), transactionProxyModel(0),
     transactionView(0)
 {
     // Build filter row
     setContentsMargins(0,0,0,0);
-
+    //setStyleSheet("color: yellow");
     QHBoxLayout *hlayout = new QHBoxLayout();
     hlayout->setContentsMargins(0,0,0,0);
 #ifdef Q_OS_MAC
@@ -56,6 +56,7 @@ TransactionView::TransactionView(QWidget *parent) :
     dateWidget->addItem(tr("Last month"), LastMonth);
     dateWidget->addItem(tr("This year"), ThisYear);
     dateWidget->addItem(tr("Range..."), Range);
+    dateWidget->setStyleSheet("color: white;selection-color: red;");
     hlayout->addWidget(dateWidget);
 
     typeWidget = new QComboBox(this);
@@ -73,13 +74,14 @@ TransactionView::TransactionView(QWidget *parent) :
     typeWidget->addItem(tr("To yourself"), TransactionFilterProxy::TYPE(TransactionRecord::SendToSelf));
     typeWidget->addItem(tr("Mined"), TransactionFilterProxy::TYPE(TransactionRecord::Generated));
     typeWidget->addItem(tr("Other"), TransactionFilterProxy::TYPE(TransactionRecord::Other));
-
+    dateWidget->setStyleSheet("color: white;selection-color: red;");
     hlayout->addWidget(typeWidget);
 
     addressWidget = new QLineEdit(this);
 #if QT_VERSION >= 0x040700
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
     addressWidget->setPlaceholderText(tr("Enter address or label to search"));
+    addressWidget->setStyleSheet("color: white");
 #endif
     hlayout->addWidget(addressWidget);
 
@@ -87,6 +89,7 @@ TransactionView::TransactionView(QWidget *parent) :
 #if QT_VERSION >= 0x040700
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
     amountWidget->setPlaceholderText(tr("Min amount"));
+    amountWidget->setStyleSheet("color: white");
 #endif
 #ifdef Q_OS_MAC
     amountWidget->setFixedWidth(97);
@@ -105,6 +108,7 @@ TransactionView::TransactionView(QWidget *parent) :
     vlayout->addWidget(createDateRangeWidget());
     vlayout->addWidget(view);
     vlayout->setSpacing(0);
+    view->setStyleSheet("QTableView {color: yellow;}");
     int width = view->verticalScrollBar()->sizeHint().width();
     // Cover scroll bar width with spacing
 #ifdef Q_OS_MAC
@@ -116,7 +120,6 @@ TransactionView::TransactionView(QWidget *parent) :
     view->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOn);
     view->setTabKeyNavigation(false);
     view->setContextMenuPolicy(Qt::CustomContextMenu);
-
     transactionView = view;
 
     // Actions
@@ -162,17 +165,14 @@ void TransactionView::setModel(WalletModel *model)
         transactionProxyModel->setDynamicSortFilter(true);
         transactionProxyModel->setSortCaseSensitivity(Qt::CaseInsensitive);
         transactionProxyModel->setFilterCaseSensitivity(Qt::CaseInsensitive);
-
         transactionProxyModel->setSortRole(Qt::EditRole);
-
         transactionView->setModel(transactionProxyModel);
-        transactionView->setAlternatingRowColors(true);
+        //transactionView->setAlternatingRowColors(true);
         transactionView->setSelectionBehavior(QAbstractItemView::SelectRows);
         transactionView->setSelectionMode(QAbstractItemView::ExtendedSelection);
         transactionView->setSortingEnabled(true);
         transactionView->sortByColumn(TransactionTableModel::Status, Qt::DescendingOrder);
-        transactionView->verticalHeader()->hide();
-
+        transactionView->verticalHeader()->hide();    
         transactionView->horizontalHeader()->resizeSection(TransactionTableModel::Status, 23);
         transactionView->horizontalHeader()->resizeSection(TransactionTableModel::Date, 120);
         transactionView->horizontalHeader()->resizeSection(TransactionTableModel::Type, 120);

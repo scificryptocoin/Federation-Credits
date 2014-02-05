@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Blakecoin</source>
-        <translation>Over Blakecoin</translation>
+        <source>About Federation Credits</source>
+        <translation>Over Federation Credits</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Blakecoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Blakecoin&lt;/b&gt; versie</translation>
+        <source>&lt;b&gt;Federation Credits&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Federation Credits&lt;/b&gt; versie</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+0"/>
-        <source>The Blakecoin developers</source>
-        <translation>De Blakecoin-ontwikkelaars</translation>
+        <source>The Federation Credits developers</source>
+        <translation>De Federation Credits-ontwikkelaars</translation>
     </message>
 </context>
 <context>
@@ -67,7 +67,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Blakecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Federation Credits addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Dit zijn uw Bitcoinadressen om betalingen mee te ontvangen. U kunt er voor kiezen om een uniek adres aan te maken voor elke afzender. Op deze manier kunt u bijhouden wie al aan u betaald heeft.</translation>
     </message>
     <message>
@@ -82,7 +82,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Blakecoin address</source>
+        <source>Sign a message to prove you own a Federation Credits address</source>
         <translation>Onderteken een bericht om te bewijzen dat u een bepaald Bitcoinadres bezit</translation>
     </message>
     <message>
@@ -107,7 +107,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Blakecoin address</source>
+        <source>Verify a message to ensure it was signed with a specified Federation Credits address</source>
         <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Bitcoinadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
@@ -122,7 +122,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Blakecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Federation Credits addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Dit zijn uw Bitcoinadressen om betalingen mee te verzenden. Check altijd het bedrag en het ontvangende adres voordat u uw bitcoins verzendt.</translation>
     </message>
     <message>
@@ -275,8 +275,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-56"/>
-        <source>Blakecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Blakecoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw bitcoins stelen.</translation>
+        <source>Federation Credits will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>Federation Credits zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw bitcoins stelen.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Blakecoin</source>
-        <translation>Laat informatie zien over Blakecoin</translation>
+        <source>Show information about Federation Credits</source>
+        <translation>Laat informatie zien over Federation Credits</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Blakecoin address</source>
+        <source>Send coins to a Federation Credits address</source>
         <translation>Verstuur munten naar een Bitcoinadres</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Blakecoin</source>
-        <translation>Wijzig instellingen van Blakecoin</translation>
+        <source>Modify configuration options for Federation Credits</source>
+        <translation>Wijzig instellingen van Federation Credits</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Blakecoin</source>
-        <translation>Blakecoin</translation>
+        <source>Federation Credits</source>
+        <translation>Federation Credits</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Blakecoin</source>
-        <translation>&amp;Over Blakecoin</translation>
+        <source>&amp;About Federation Credits</source>
+        <translation>&amp;Over Federation Credits</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,12 +500,12 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Blakecoin addresses to prove you own them</source>
+        <source>Sign messages with your Federation Credits addresses to prove you own them</source>
         <translation>Onderteken berichten met uw Bitcoinadressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Blakecoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Federation Credits addresses</source>
         <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Bitcoinadressen</translation>
     </message>
     <message>
@@ -536,12 +536,12 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+47"/>
-        <source>Blakecoin client</source>
-        <translation>Blakecoin client</translation>
+        <source>Federation Credits client</source>
+        <translation>Federation Credits client</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Blakecoin network</source>
+        <source>%n active connection(s) to Federation Credits network</source>
         <translation><numerusform>%n actieve connectie naar Bitcoinnetwerk</numerusform><numerusform>%n actieve connecties naar Bitcoinnetwerk</numerusform></translation>
     </message>
     <message>
@@ -656,7 +656,7 @@ Adres: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Blakecoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Federation Credits address or malformed URI parameters.</source>
         <translation>URI kan niet worden geïnterpreteerd. Dit kan komen door een ongeldig Bitcoinadres of misvormde URI-parameters.</translation>
     </message>
     <message>
@@ -671,8 +671,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Blakecoin can no longer continue safely and will quit.</source>
-        <translation>Er is een fatale fout opgetreden. Blakecoin kan niet meer veilig doorgaan en zal nu afgesloten worden.</translation>
+        <source>A fatal error occurred. Federation Credits can no longer continue safely and will quit.</source>
+        <translation>Er is een fatale fout opgetreden. Federation Credits kan niet meer veilig doorgaan en zal nu afgesloten worden.</translation>
     </message>
 </context>
 <context>
@@ -737,7 +737,7 @@ Adres: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Blakecoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Federation Credits address.</source>
         <translation>Het opgegeven adres &quot;%1&quot; is een ongeldig Bitcoinadres</translation>
     </message>
     <message>
@@ -756,8 +756,8 @@ Adres: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Blakecoin-Qt</source>
-        <translation>Blakecoin-Qt</translation>
+        <source>Federation Credits-Qt</source>
+        <translation>Federation Credits-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Adres: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Blakecoin after logging in to the system.</source>
-        <translation>Start Blakecoin automatisch na inloggen in het systeem</translation>
+        <source>Automatically start Federation Credits after logging in to the system.</source>
+        <translation>Start Federation Credits automatisch na inloggen in het systeem</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Blakecoin on system login</source>
-        <translation>Start &amp;Blakecoin bij het inloggen in het systeem</translation>
+        <source>&amp;Start Federation Credits on system login</source>
+        <translation>Start &amp;Federation Credits bij het inloggen in het systeem</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,8 +844,8 @@ Adres: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Blakecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de Blakecoin-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
+        <source>Automatically open the Federation Credits client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open de Federation Credits-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Blakecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Verbind met het Blakecoin-netwerk via een SOCKS-proxy (bijv. wanneer u via Tor wilt verbinden)</translation>
+        <source>Connect to the Federation Credits network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Verbind met het Federation Credits-netwerk via een SOCKS-proxy (bijv. wanneer u via Tor wilt verbinden)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Adres: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Blakecoin.</source>
-        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat Blakecoin herstart wordt.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Federation Credits.</source>
+        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat Federation Credits herstart wordt.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,7 +944,7 @@ Adres: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Blakecoin addresses in the transaction list or not.</source>
+        <source>Whether to show Federation Credits addresses in the transaction list or not.</source>
         <translation>Of Bitcoinadressen getoond worden in de transactielijst</translation>
     </message>
     <message>
@@ -996,8 +996,8 @@ Adres: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Blakecoin.</source>
-        <translation>Deze instelling zal pas van kracht worden na het herstarten van Blakecoin.</translation>
+        <source>This setting will take effect after restarting Federation Credits.</source>
+        <translation>Deze instelling zal pas van kracht worden na het herstarten van Federation Credits.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,7 +1015,7 @@ Adres: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Blakecoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Federation Credits network after a connection is established, but this process has not completed yet.</source>
         <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het Bitcoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
@@ -1219,8 +1219,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Blakecoin-Qt help message to get a list with possible Blakecoin command-line options.</source>
-        <translation>Toon het BitcoinQt-hulpbericht voor een lijst met mogelijke Blakecoin commandoregel-opties.</translation>
+        <source>Show the Federation Credits-Qt help message to get a list with possible Federation Credits command-line options.</source>
+        <translation>Toon het BitcoinQt-hulpbericht voor een lijst met mogelijke Federation Credits commandoregel-opties.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Adres: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Blakecoin - Debug window</source>
-        <translation>Blakecoin-debugscherm</translation>
+        <source>Federation Credits - Debug window</source>
+        <translation>Federation Credits-debugscherm</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Blakecoin Core</source>
-        <translation>Blakecoin Kern</translation>
+        <source>Federation Credits Core</source>
+        <translation>Federation Credits Kern</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,7 +1254,7 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Blakecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Federation Credits debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Open het Bitcoindebug-logbestand van de huidige datamap. Dit kan een aantal seconden duren voor grote logbestanden.</translation>
     </message>
     <message>
@@ -1264,8 +1264,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Blakecoin RPC console.</source>
-        <translation>Welkom bij de Blakecoin RPC-console.</translation>
+        <source>Welcome to the Federation Credits RPC console.</source>
+        <translation>Welkom bij de Federation Credits RPC-console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1407,8 +1407,8 @@ Adres: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Het adres waaraan u wilt betalen  (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address to send the payment to (e.g. CASSWQSwMCCeVBZPmD7SAjkdhEaEEavK7Y)</source>
+        <translation>Het adres waaraan u wilt betalen  (bijv. CASSWQSwMCCeVBZPmD7SAjkdhEaEEavK7Y)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1448,8 +1448,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Blakecoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Vul een Bitcoinadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Federation Credits address (e.g. CASSWQSwMCCeVBZPmD7SAjkdhEaEEavK7Y)</source>
+        <translation>Vul een Bitcoinadres in (bijv. CASSWQSwMCCeVBZPmD7SAjkdhEaEEavK7Y)</translation>
     </message>
 </context>
 <context>
@@ -1471,8 +1471,8 @@ Adres: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Het adres om het bericht mee te ondertekenen (Vb.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L).</translation>
+        <source>The address to sign the message with (e.g. CASSWQSwMCCeVBZPmD7SAjkdhEaEEavK7Y)</source>
+        <translation>Het adres om het bericht mee te ondertekenen (Vb.: CASSWQSwMCCeVBZPmD7SAjkdhEaEEavK7Y).</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1513,7 +1513,7 @@ Adres: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Blakecoin address</source>
+        <source>Sign the message to prove you own this Federation Credits address</source>
         <translation>Onderteken een bericht om te bewijzen dat u een bepaald Bitcoinadres bezit</translation>
     </message>
     <message>
@@ -1544,12 +1544,12 @@ Adres: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Het adres waarmee bet bericht was ondertekend (Vb.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L).</translation>
+        <source>The address the message was signed with (e.g. CASSWQSwMCCeVBZPmD7SAjkdhEaEEavK7Y)</source>
+        <translation>Het adres waarmee bet bericht was ondertekend (Vb.: CASSWQSwMCCeVBZPmD7SAjkdhEaEEavK7Y).</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Blakecoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Federation Credits address</source>
         <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Bitcoinadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
@@ -1565,8 +1565,8 @@ Adres: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Blakecoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Vul een Bitcoinadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Federation Credits address (e.g. CASSWQSwMCCeVBZPmD7SAjkdhEaEEavK7Y)</source>
+        <translation>Vul een Bitcoinadres in (bijv. CASSWQSwMCCeVBZPmD7SAjkdhEaEEavK7Y)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Adres: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Blakecoin signature</source>
-        <translation>Voer Blakecoin-handtekening in</translation>
+        <source>Enter Federation Credits signature</source>
+        <translation>Voer Federation Credits-handtekening in</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,8 +1649,8 @@ Adres: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Blakecoin developers</source>
-        <translation>De Blakecoin-ontwikkelaars</translation>
+        <source>The Federation Credits developers</source>
+        <translation>De Federation Credits-ontwikkelaars</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2187,7 +2187,7 @@ Adres: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Blakecoin version</source>
+        <source>Federation Credits version</source>
         <translation>Bitcoinversie</translation>
     </message>
     <message>
@@ -2308,7 +2308,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Blakecoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Federation Credits Alert&quot; admin@foo.com
 </source>
         <translation>%s, u moet een RPC-wachtwoord instellen in het configuratiebestand: %s
 U wordt aangeraden het volgende willekeurige wachtwoord te gebruiken:
@@ -2318,7 +2318,7 @@ rpcpassword=%s
 De gebruikersnaam en wachtwoord mogen niet hetzelfde zijn.
 Als het bestand niet bestaat, make hem dan aan met leesrechten voor enkel de eigenaar.
 Het is ook aan te bevelen &quot;alertnotify&quot; in te stellen zodat u op de hoogte gesteld wordt van problemen;
-for example: alertnotify=echo %%s | mail -s &quot;Blakecoin Alert&quot; admin@foo.com</translation>
+for example: alertnotify=echo %%s | mail -s &quot;Federation Credits Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2332,8 +2332,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Blakecoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Blakecoin is probably already running.</source>
-        <translation>Kan geen lock op de datamap %s verkrijgen. Blakecoin draait vermoedelijk reeds.</translation>
+        <source>Cannot obtain a lock on data directory %s. Federation Credits is probably already running.</source>
+        <translation>Kan geen lock op de datamap %s verkrijgen. Federation Credits draait vermoedelijk reeds.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2377,8 +2377,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Blakecoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Blakecoin will not work properly.</source>
-        <translation>Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal Blakecoin niet correct werken.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Federation Credits will not work properly.</source>
+        <translation>Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal Federation Credits niet correct werken.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2627,8 +2627,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Blakecoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Blakecoin Wiki for SSL setup instructions)</source>
-        <translation>SSL-opties: (zie de Blakecoin wiki voor SSL-instructies)</translation>
+        <source>SSL options: (see the Federation Credits Wiki for SSL setup instructions)</source>
+        <translation>SSL-opties: (zie de Federation Credits wiki voor SSL-instructies)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2817,13 +2817,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Blakecoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Blakecoin</source>
-        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van Blakecoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Federation Credits</source>
+        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van Federation Credits</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Blakecoin to complete</source>
-        <translation>Portemonnee moest herschreven worden: Herstart Blakecoin om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart Federation Credits to complete</source>
+        <translation>Portemonnee moest herschreven worden: Herstart Federation Credits om te voltooien</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Blakecoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Blakecoin is probably already running.</source>
-        <translation>Niet in staat om aan %s te binden op deze computer. Blakecoin draait vermoedelijk reeds.</translation>
+        <source>Unable to bind to %s on this computer. Federation Credits is probably already running.</source>
+        <translation>Niet in staat om aan %s te binden op deze computer. Federation Credits draait vermoedelijk reeds.</translation>
     </message>
     <message>
         <location line="+64"/>

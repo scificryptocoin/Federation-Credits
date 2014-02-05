@@ -459,10 +459,10 @@ QVariant TransactionTableModel::txStatusDecoration(const TransactionRecord *wtx)
         {
         case TransactionStatus::OpenUntilBlock:
         case TransactionStatus::OpenUntilDate:
-            return QColor(64,64,255);
+            return QColor(255,255,255);
             break;
         case TransactionStatus::Offline:
-            return QColor(192,192,192);
+            return QColor(240,240,240);
         case TransactionStatus::Unconfirmed:
             switch(wtx->status.depth)
             {
@@ -477,7 +477,7 @@ QVariant TransactionTableModel::txStatusDecoration(const TransactionRecord *wtx)
             return QIcon(":/icons/transaction_confirmed");
         }
     }
-    return QColor(0,0,0);
+    return QColor(255,255,255);
 }
 
 QString TransactionTableModel::formatTooltip(const TransactionRecord *rec) const

@@ -9,7 +9,8 @@
 #include "transactionfilterproxy.h"
 #include "guiutil.h"
 #include "guiconstants.h"
-
+#include <QMovie>
+#include <QLabel>
 #include <QAbstractItemDelegate>
 #include <QPainter>
 
@@ -103,13 +104,14 @@ OverviewPage::OverviewPage(QWidget *parent) :
     filter(0)
 {
     ui->setupUi(this);
-
     // Recent transactions
+    QMovie *scanmovie = new QMovie(":/movies/res/movies/scan.gif");
     ui->listTransactions->setItemDelegate(txdelegate);
     ui->listTransactions->setIconSize(QSize(DECORATION_SIZE, DECORATION_SIZE));
     ui->listTransactions->setMinimumHeight(NUM_ITEMS * (DECORATION_SIZE + 2));
     ui->listTransactions->setAttribute(Qt::WA_MacShowFocusRect, false);
-
+    ui->Scan->setMovie(scanmovie);
+    scanmovie->start();
     connect(ui->listTransactions, SIGNAL(clicked(QModelIndex)), this, SLOT(handleTransactionClicked(QModelIndex)));
 
     // init "out of sync" warning labels

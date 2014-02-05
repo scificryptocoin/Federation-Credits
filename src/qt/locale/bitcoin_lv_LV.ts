@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Blakecoin</source>
-        <translation>Par Blakecoin</translation>
+        <source>About Federation Credits</source>
+        <translation>Par Federation Credits</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Blakecoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Blakecoin&lt;/b&gt; versija</translation>
+        <source>&lt;b&gt;Federation Credits&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Federation Credits&lt;/b&gt; versija</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The Blakecoin developers</source>
+        <source>The Federation Credits developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -62,7 +62,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Blakecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Federation Credits addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -77,7 +77,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Blakecoin address</source>
+        <source>Sign a message to prove you own a Federation Credits address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -102,7 +102,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Blakecoin address</source>
+        <source>Verify a message to ensure it was signed with a specified Federation Credits address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -117,7 +117,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Blakecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Federation Credits addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -270,8 +270,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Blakecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Blakecoin aizvērsies, lai pabeigtu šifrēšanu. Atcerieties, ka maciņa šifrēšana nevar pilnībā novērst bitkoinu zādzību, ko veic datorā ieviesušās kaitīgas programmas.</translation>
+        <source>Federation Credits will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>Federation Credits aizvērsies, lai pabeigtu šifrēšanu. Atcerieties, ka maciņa šifrēšana nevar pilnībā novērst bitkoinu zādzību, ko veic datorā ieviesušās kaitīgas programmas.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -369,8 +369,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Blakecoin</source>
-        <translation>Parādīt informāciju par Blakecoin</translation>
+        <source>Show information about Federation Credits</source>
+        <translation>Parādīt informāciju par Federation Credits</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -414,13 +414,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Blakecoin address</source>
-        <translation>Nosūtīt bitkoinus uz Blakecoin adresi</translation>
+        <source>Send coins to a Federation Credits address</source>
+        <translation>Nosūtīt bitkoinus uz Federation Credits adresi</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Blakecoin</source>
-        <translation>Mainīt Blakecoin konfigurācijas uzstādījumus</translation>
+        <source>Modify configuration options for Federation Credits</source>
+        <translation>Mainīt Federation Credits konfigurācijas uzstādījumus</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -450,7 +450,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Blakecoin</source>
+        <source>Federation Credits</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -475,7 +475,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Blakecoin</source>
+        <source>&amp;About Federation Credits</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -495,12 +495,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Blakecoin addresses to prove you own them</source>
+        <source>Sign messages with your Federation Credits addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Blakecoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Federation Credits addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -531,13 +531,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>Blakecoin client</source>
-        <translation>Blakecoin klients</translation>
+        <source>Federation Credits client</source>
+        <translation>Federation Credits klients</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Blakecoin network</source>
-        <translation><numerusform>%n aktīvu savienojumu ar Blakecoin tīklu</numerusform><numerusform>%n aktīvs savienojums ar Blakecoin tīklu</numerusform><numerusform>%n aktīvu savienojumu as Blakecoin tīklu</numerusform></translation>
+        <source>%n active connection(s) to Federation Credits network</source>
+        <translation><numerusform>%n aktīvu savienojumu ar Federation Credits tīklu</numerusform><numerusform>%n aktīvs savienojums ar Federation Credits tīklu</numerusform><numerusform>%n aktīvu savienojumu as Federation Credits tīklu</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -651,7 +651,7 @@ Adrese: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Blakecoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Federation Credits address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -666,7 +666,7 @@ Adrese: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Blakecoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Federation Credits can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -732,8 +732,8 @@ Adrese: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Blakecoin address.</source>
-        <translation>Ierakstītā adrese &quot;%1&quot; nav derīga Blakecoin adrese.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Federation Credits address.</source>
+        <translation>Ierakstītā adrese &quot;%1&quot; nav derīga Federation Credits adrese.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -751,8 +751,8 @@ Adrese: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Blakecoin-Qt</source>
-        <translation>Blakecoin-Qt</translation>
+        <source>Federation Credits-Qt</source>
+        <translation>Federation Credits-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -814,13 +814,13 @@ Adrese: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Blakecoin after logging in to the system.</source>
-        <translation>Automātiski sākt Blakecoin pēc pieteikšanās sistēmā.</translation>
+        <source>Automatically start Federation Credits after logging in to the system.</source>
+        <translation>Automātiski sākt Federation Credits pēc pieteikšanās sistēmā.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Blakecoin on system login</source>
-        <translation>&amp;Sākt Blakecoin reizē ar sistēmu</translation>
+        <source>&amp;Start Federation Credits on system login</source>
+        <translation>&amp;Sākt Federation Credits reizē ar sistēmu</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -839,8 +839,8 @@ Adrese: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Blakecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Uz rūtera automātiski atvērt Blakecoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
+        <source>Automatically open the Federation Credits client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Uz rūtera automātiski atvērt Federation Credits klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -849,7 +849,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Blakecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the Federation Credits network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -924,8 +924,8 @@ Adrese: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Blakecoin.</source>
-        <translation>Šeit var iestatīt lietotāja valodu. Iestatījums aktivizēsies pēc Blakecoin pārstartēšanas.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Federation Credits.</source>
+        <translation>Šeit var iestatīt lietotāja valodu. Iestatījums aktivizēsies pēc Federation Credits pārstartēšanas.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -939,8 +939,8 @@ Adrese: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Blakecoin addresses in the transaction list or not.</source>
-        <translation>Rādīt vai nē Blakecoin adreses transakciju sarakstā.</translation>
+        <source>Whether to show Federation Credits addresses in the transaction list or not.</source>
+        <translation>Rādīt vai nē Federation Credits adreses transakciju sarakstā.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -991,7 +991,7 @@ Adrese: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Blakecoin.</source>
+        <source>This setting will take effect after restarting Federation Credits.</source>
         <translation>Iestatījums aktivizēsies pēc Bitkoin pārstartēšanas.</translation>
     </message>
     <message>
@@ -1010,8 +1010,8 @@ Adrese: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Blakecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar Blakecoin tīklu, taču šis process vēl nav beidzies.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Federation Credits network after a connection is established, but this process has not completed yet.</source>
+        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar Federation Credits tīklu, taču šis process vēl nav beidzies.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1214,7 +1214,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Blakecoin-Qt help message to get a list with possible Blakecoin command-line options.</source>
+        <source>Show the Federation Credits-Qt help message to get a list with possible Federation Credits command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1234,12 +1234,12 @@ Adrese: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Blakecoin - Debug window</source>
+        <source>Federation Credits - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>Blakecoin Core</source>
+        <source>Federation Credits Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1249,7 +1249,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Blakecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Federation Credits debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1259,8 +1259,8 @@ Adrese: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Blakecoin RPC console.</source>
-        <translation>Laipni lūgti Blakecoin RPC konsolē.</translation>
+        <source>Welcome to the Federation Credits RPC console.</source>
+        <translation>Laipni lūgti Federation Credits RPC konsolē.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1402,7 +1402,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>The address to send the payment to (e.g. CASSWQSwMCCeVBZPmD7SAjkdhEaEEavK7Y)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1443,8 +1443,8 @@ Adrese: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Blakecoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Ierakstiet Blakecoin adresi (piem. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Federation Credits address (e.g. CASSWQSwMCCeVBZPmD7SAjkdhEaEEavK7Y)</source>
+        <translation>Ierakstiet Federation Credits adresi (piem. CASSWQSwMCCeVBZPmD7SAjkdhEaEEavK7Y)</translation>
     </message>
 </context>
 <context>
@@ -1466,7 +1466,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>The address to sign the message with (e.g. CASSWQSwMCCeVBZPmD7SAjkdhEaEEavK7Y)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1508,7 +1508,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Blakecoin address</source>
+        <source>Sign the message to prove you own this Federation Credits address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1539,12 +1539,12 @@ Adrese: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>The address the message was signed with (e.g. CASSWQSwMCCeVBZPmD7SAjkdhEaEEavK7Y)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Blakecoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Federation Credits address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1560,8 +1560,8 @@ Adrese: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Blakecoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Ierakstiet Blakecoin adresi (piem. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Federation Credits address (e.g. CASSWQSwMCCeVBZPmD7SAjkdhEaEEavK7Y)</source>
+        <translation>Ierakstiet Federation Credits adresi (piem. CASSWQSwMCCeVBZPmD7SAjkdhEaEEavK7Y)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1570,7 +1570,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Blakecoin signature</source>
+        <source>Enter Federation Credits signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1644,7 +1644,7 @@ Adrese: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Blakecoin developers</source>
+        <source>The Federation Credits developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2182,8 +2182,8 @@ Adrese: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Blakecoin version</source>
-        <translation>Blakecoin versija</translation>
+        <source>Federation Credits version</source>
+        <translation>Federation Credits versija</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2301,7 +2301,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Blakecoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Federation Credits Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2317,7 +2317,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Blakecoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Blakecoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Federation Credits is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2362,7 +2362,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Blakecoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Blakecoin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Federation Credits will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2612,7 +2612,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Blakecoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Blakecoin Wiki for SSL setup instructions)</source>
+        <source>SSL options: (see the Federation Credits Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2802,13 +2802,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Blakecoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Blakecoin</source>
-        <translation>Nevar ielādēt wallet.dat: maciņa atvēršanai nepieciešama jaunāka Blakecoin versija</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Federation Credits</source>
+        <translation>Nevar ielādēt wallet.dat: maciņa atvēršanai nepieciešama jaunāka Federation Credits versija</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Blakecoin to complete</source>
-        <translation>Bija nepieciešams pārstartēt maciņu: pabeigšanai pārstartējiet Blakecoin</translation>
+        <source>Wallet needed to be rewritten: restart Federation Credits to complete</source>
+        <translation>Bija nepieciešams pārstartēt maciņu: pabeigšanai pārstartējiet Federation Credits</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2867,8 +2867,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Blakecoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Blakecoin is probably already running.</source>
-        <translation>Nevar pievienoties %s uz šī datora. Blakecoin droši vien jau darbojas.</translation>
+        <source>Unable to bind to %s on this computer. Federation Credits is probably already running.</source>
+        <translation>Nevar pievienoties %s uz šī datora. Federation Credits droši vien jau darbojas.</translation>
     </message>
     <message>
         <location line="+64"/>

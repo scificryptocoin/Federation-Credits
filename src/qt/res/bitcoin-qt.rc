@@ -20,7 +20,7 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "scificoin"
+            VALUE "CompanyName",        "SciFi Blockchain LLC"
             VALUE "FileDescription",    "Federation Credit-Qt (OSS GUI client for Bitcoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "federationcredit-qt"

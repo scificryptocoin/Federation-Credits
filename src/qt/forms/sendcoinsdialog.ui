@@ -25,7 +25,7 @@
         <x>0</x>
         <y>0</y>
         <width>666</width>
-        <height>162</height>
+        <height>168</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -60,11 +60,24 @@
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
       <widget class="QPushButton" name="addButton">
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
        <property name="toolTip">
         <string>Send to multiple recipients at once</string>
        </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(0, 85, 255);
+border-style:solid;
+border-width:2px;
+border-color:black;</string>
+       </property>
        <property name="text">
-        <string>Add &amp;Recipient</string>
+        <string>Add &amp;Recipient  </string>
        </property>
        <property name="icon">
         <iconset resource="../bitcoin.qrc">
@@ -76,6 +89,19 @@
       </widget>
      </item>
      <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>5</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
       <widget class="QPushButton" name="clearButton">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
@@ -83,11 +109,24 @@
          <verstretch>0</verstretch>
         </sizepolicy>
        </property>
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
        <property name="toolTip">
         <string>Remove all transaction fields</string>
        </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(0, 85, 255);
+border-style:solid;
+border-width:2px;
+border-color:black;</string>
+       </property>
        <property name="text">
-        <string>Clear &amp;All</string>
+        <string>Clear &amp;All  </string>
        </property>
        <property name="icon">
         <iconset resource="../bitcoin.qrc">
@@ -102,12 +141,28 @@
       </widget>
      </item>
      <item>
+      <spacer name="horizontalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>5</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
       <layout class="QHBoxLayout" name="horizontalLayout_2">
        <property name="spacing">
         <number>3</number>
        </property>
        <item>
         <widget class="QLabel" name="label">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 0);</string>
+         </property>
          <property name="text">
           <string>Balance:</string>
          </property>
@@ -115,8 +170,17 @@
        </item>
        <item>
         <widget class="QLabel" name="labelBalance">
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
          <property name="cursor">
           <cursorShape>IBeamCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(170, 0, 0);</string>
          </property>
          <property name="text">
           <string>123.456 UFC</string>
@@ -135,7 +199,7 @@
        </property>
        <property name="sizeHint" stdset="0">
         <size>
-         <width>40</width>
+         <width>10</width>
          <height>20</height>
         </size>
        </property>
@@ -149,8 +213,21 @@
          <height>0</height>
         </size>
        </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
        <property name="toolTip">
         <string>Confirm the send action</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 85, 255);
+color: rgb(255, 0, 0);
+border-style:solid;
+border-width:2px;
+border-color:black;</string>
        </property>
        <property name="text">
         <string>S&amp;end</string>
