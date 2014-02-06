@@ -68,7 +68,8 @@ BitcoinGUI::BitcoinGUI(QWidget *parent) :
 {
     restoreWindowGeometry();
     setWindowTitle(tr("Federation Credit") + " - " + tr("Wallet"));
-    setStyleSheet("QWidget { background : #00005F;border-radius:10px; }  QToolButton { background : #00007F; color: white; border-radius:10px; }");
+    setStyleSheet("QWidget { background : #00005F;border-radius:10px; }  QToolButton { background : #00005F; color: white;border-radius:10px;}QMenu::item {background-color: #00005F; color: white;}QMenuBar::item {background-color: #00005F; color: yellow;}");
+
     
 #ifndef Q_OS_MAC
     QApplication::setWindowIcon(QIcon(":icons/bitcoin"));
@@ -260,7 +261,6 @@ void BitcoinGUI::createMenuBar()
 #else
     // Get the main window's menu bar on other platforms
     appMenuBar = menuBar();
-    appMenuBar->setStyleSheet("background-color: #00005F; color: white;");
 #endif
 
     // Configure the menus
@@ -270,21 +270,18 @@ void BitcoinGUI::createMenuBar()
     file->addAction(verifyMessageAction);
     file->addSeparator();
     file->addAction(quitAction);
-    file->setStyleSheet("QMenuBar::item{color: white;}");
 
     QMenu *settings = appMenuBar->addMenu(tr("&Settings"));
     settings->addAction(encryptWalletAction);
     settings->addAction(changePassphraseAction);
     settings->addSeparator();
     settings->addAction(optionsAction);
-    settings->setStyleSheet("QMenuBar::item{color: white;}");
 
     QMenu *help = appMenuBar->addMenu(tr("&Help"));
     help->addAction(openRPCConsoleAction);
     help->addSeparator();
     help->addAction(aboutAction);
     help->addAction(aboutQtAction);
-    help->setStyleSheet("QMenuBar::item{color: white;}");
 }
 
 void BitcoinGUI::createToolBars()

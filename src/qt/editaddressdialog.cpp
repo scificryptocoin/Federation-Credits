@@ -100,22 +100,22 @@ void EditAddressDialog::accept()
             break;
         case AddressTableModel::INVALID_ADDRESS:
             QMessageBox::warning(this, windowTitle(),
-                tr("The entered address \"%1\" is not a valid Federation Credit address.").arg(ui->addressEdit->text()),
+                tr("<FONT COLOR=red>The entered address \"%1\" is not a valid Federation Credit address.").arg(ui->addressEdit->text()),
                 QMessageBox::Ok, QMessageBox::Ok);
             break;
         case AddressTableModel::DUPLICATE_ADDRESS:
             QMessageBox::warning(this, windowTitle(),
-                tr("The entered address \"%1\" is already in the address book.").arg(ui->addressEdit->text()),
+                tr("<FONT COLOR=red>The entered address \"%1\" is already in the address book.").arg(ui->addressEdit->text()),
                 QMessageBox::Ok, QMessageBox::Ok);
             break;
         case AddressTableModel::WALLET_UNLOCK_FAILURE:
             QMessageBox::critical(this, windowTitle(),
-                tr("Could not unlock wallet."),
+                tr("<FONT COLOR=red>Could not unlock wallet."),
                 QMessageBox::Ok, QMessageBox::Ok);
             break;
         case AddressTableModel::KEY_GENERATION_FAILURE:
             QMessageBox::critical(this, windowTitle(),
-                tr("New key generation failed."),
+                tr("<FONT COLOR=red>New key generation failed."),
                 QMessageBox::Ok, QMessageBox::Ok);
             break;
 

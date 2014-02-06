@@ -97,8 +97,8 @@ void AskPassphraseDialog::accept()
             // Cannot encrypt with empty passphrase
             break;
         }
-        QMessageBox::StandardButton retval = QMessageBox::question(this, tr("Confirm wallet encryption"),
-                 tr("Warning: If you encrypt your wallet and lose your passphrase, you will <b>LOSE ALL OF YOUR FEDERATION CREDITS</b>!") + "<br><br>" + tr("Are you sure you wish to encrypt your wallet?"),
+        QMessageBox::StandardButton retval = QMessageBox::question(this, tr("<FONT COLOR= red>Confirm wallet encryption"),
+                 tr("<FONT COLOR= red>Warning: If you encrypt your wallet and lose your passphrase, you will <b>LOSE ALL OF YOUR FEDERATION CREDITS</b>!") + "<br><br>" + tr("Are you sure you wish to encrypt your wallet?"),
                  QMessageBox::Yes|QMessageBox::Cancel,
                  QMessageBox::Cancel);
         if(retval == QMessageBox::Yes)
@@ -109,11 +109,11 @@ void AskPassphraseDialog::accept()
                 {
                     QMessageBox::warning(this, tr("Wallet encrypted"),
                                          "<qt>" +
-                                         tr("Federation Credit will close now to finish the encryption process. "
+                                         tr("<FONT COLOR= red>Federation Credit will close now to finish the encryption process. "
                                          "Remember that encrypting your wallet cannot fully protect "
                                          "your federation credits from being stolen by malware infecting your computer.") +
                                          "<br><br><b>" +
-                                         tr("IMPORTANT: Any previous backups you have made of your wallet file "
+                                         tr("<FONT COLOR= red>IMPORTANT: Any previous backups you have made of your wallet file "
                                          "should be replaced with the newly generated, encrypted wallet file. "
                                          "For security reasons, previous backups of the unencrypted wallet file "
                                          "will become useless as soon as you start using the new, encrypted wallet.") +
@@ -122,15 +122,15 @@ void AskPassphraseDialog::accept()
                 }
                 else
                 {
-                    QMessageBox::critical(this, tr("Wallet encryption failed"),
-                                         tr("Wallet encryption failed due to an internal error. Your wallet was not encrypted."));
+                    QMessageBox::critical(this, tr("<FONT COLOR= red>Wallet encryption failed"),
+                                         tr("<FONT COLOR= red>Wallet encryption failed due to an internal error. Your wallet was not encrypted."));
                 }
                 QDialog::accept(); // Success
             }
             else
             {
-                QMessageBox::critical(this, tr("Wallet encryption failed"),
-                                     tr("The supplied passphrases do not match."));
+                QMessageBox::critical(this, tr("<FONT COLOR= red>Wallet encryption failed"),
+                                     tr("<FONT COLOR= red>The supplied passphrases do not match."));
             }
         }
         else
@@ -141,8 +141,8 @@ void AskPassphraseDialog::accept()
     case Unlock:
         if(!model->setWalletLocked(false, oldpass))
         {
-            QMessageBox::critical(this, tr("Wallet unlock failed"),
-                                  tr("The passphrase entered for the wallet decryption was incorrect."));
+            QMessageBox::critical(this, tr("<FONT COLOR= red>Wallet unlock failed"),
+                                  tr("<FONT COLOR= red>The passphrase entered for the wallet decryption was incorrect."));
         }
         else
         {
@@ -152,8 +152,8 @@ void AskPassphraseDialog::accept()
     case Decrypt:
         if(!model->setWalletEncrypted(false, oldpass))
         {
-            QMessageBox::critical(this, tr("Wallet decryption failed"),
-                                  tr("The passphrase entered for the wallet decryption was incorrect."));
+            QMessageBox::critical(this, tr("<FONT COLOR= red>Wallet decryption failed"),
+                                  tr("T<FONT COLOR= red>The passphrase entered for the wallet decryption was incorrect."));
         }
         else
         {
@@ -165,20 +165,20 @@ void AskPassphraseDialog::accept()
         {
             if(model->changePassphrase(oldpass, newpass1))
             {
-                QMessageBox::information(this, tr("Wallet encrypted"),
-                                     tr("Wallet passphrase was successfully changed."));
+                QMessageBox::information(this, tr("<FONT COLOR= red>Wallet encrypted"),
+                                     tr("<FONT COLOR= red>Wallet passphrase was successfully changed."));
                 QDialog::accept(); // Success
             }
             else
             {
-                QMessageBox::critical(this, tr("Wallet encryption failed"),
-                                     tr("The passphrase entered for the wallet decryption was incorrect."));
+                QMessageBox::critical(this, tr("<FONT COLOR= red>Wallet encryption failed"),
+                                     tr("<FONT COLOR= red>The passphrase entered for the wallet decryption was incorrect."));
             }
         }
         else
         {
-            QMessageBox::critical(this, tr("Wallet encryption failed"),
-                                 tr("The supplied passphrases do not match."));
+            QMessageBox::critical(this, tr("<FONT COLOR= red>Wallet encryption failed"),
+                                 tr("<FONT COLOR= red>The supplied passphrases do not match."));
         }
         break;
     }
@@ -237,7 +237,7 @@ bool AskPassphraseDialog::eventFilter(QObject *object, QEvent *event)
             bool fShift = (ke->modifiers() & Qt::ShiftModifier) != 0;
             if ((fShift && *psz >= 'a' && *psz <= 'z') || (!fShift && *psz >= 'A' && *psz <= 'Z')) {
                 fCapsLock = true;
-                ui->capsLabel->setText(tr("Warning: The Caps Lock key is on!"));
+                ui->capsLabel->setText(tr("<FONT COLOR= red>Warning: The Caps Lock key is on!"));
             } else if (psz->isLetter()) {
                 fCapsLock = false;
                 ui->capsLabel->clear();
