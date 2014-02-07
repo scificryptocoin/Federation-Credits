@@ -13,6 +13,10 @@
 #include <QLabel>
 #include <QAbstractItemDelegate>
 #include <QPainter>
+#include <QImageReader>
+#include <QDir>
+#include <QSound>
+
 
 #define DECORATION_SIZE 64
 #define NUM_ITEMS 3
@@ -102,10 +106,11 @@ OverviewPage::OverviewPage(QWidget *parent) :
     currentImmatureBalance(-1),
     txdelegate(new TxViewDelegate()),
     filter(0)
+
 {
     ui->setupUi(this);
     // Recent transactions
-    QMovie *scanmovie = new QMovie(":/movies/res/movies/scan.gif");
+    QMovie *scanmovie =  new QMovie(":movies/res/movies/scan.gif");
     ui->listTransactions->setItemDelegate(txdelegate);
     ui->listTransactions->setIconSize(QSize(DECORATION_SIZE, DECORATION_SIZE));
     ui->listTransactions->setMinimumHeight(NUM_ITEMS * (DECORATION_SIZE + 2));
@@ -113,7 +118,7 @@ OverviewPage::OverviewPage(QWidget *parent) :
     ui->Scan->setMovie(scanmovie);
     scanmovie->start();
     connect(ui->listTransactions, SIGNAL(clicked(QModelIndex)), this, SLOT(handleTransactionClicked(QModelIndex)));
-
+    //QSound::play(":movies/res/movies/open.wav"); Add at a later date
     // init "out of sync" warning labels
     ui->labelWalletStatus->setText("(" + tr("out of sync") + ")");
     ui->labelTransactionsStatus->setText("(" + tr("out of sync") + ")");

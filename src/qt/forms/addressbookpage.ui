@@ -843,7 +843,7 @@ border-color:black;</string>
      <item>
       <widget class="QPushButton" name="signMessage">
        <property name="toolTip">
-        <string>Sign a message to prove you own a Blakecoin address</string>
+        <string>Sign a message to prove you own a Federation Credit address</string>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(0, 85, 255);
@@ -864,7 +864,7 @@ border-color:black;</string>
      <item>
       <widget class="QPushButton" name="verifyMessage">
        <property name="toolTip">
-        <string>Verify a message to ensure it was signed with a specified Blakecoin address</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Verify a message to ensure it was signed with a specified Federation Credit address&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(0, 85, 255);

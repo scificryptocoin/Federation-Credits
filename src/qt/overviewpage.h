@@ -41,7 +41,7 @@ private:
     qint64 currentBalance;
     qint64 currentUnconfirmedBalance;
     qint64 currentImmatureBalance;
-
+    QMovie *scanmovie;
     TxViewDelegate *txdelegate;
     TransactionFilterProxy *filter;
 

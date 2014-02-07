@@ -24,7 +24,8 @@ AskPassphraseDialog::AskPassphraseDialog(Mode mode, QWidget *parent) :
     ui->passEdit1->installEventFilter(this);
     ui->passEdit2->installEventFilter(this);
     ui->passEdit3->installEventFilter(this);
-
+    setStyleSheet("QPushButton { background : #00007F ;border-radius:10px; border-color: white; color: yellow;  border-style: solid; border-width: 2px;font: bold 10px;min-width: 5em; \
+                  padding: 6px;}");
     switch(mode)
     {
         case Encrypt: // Ask passphrase x2

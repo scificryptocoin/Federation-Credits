@@ -171,6 +171,9 @@
         </item>
         <item>
          <widget class="QPushButton" name="btnSaveAs">
+          <property name="styleSheet">
+           <string notr="true">QPushButton { background : #00007F ;border-radius:10px; border-color: white; color: yellow;  border-style: solid; border-width: 2px;font: bold 10px;min-width: 5em; padding: 6px;}</string>
+          </property>
           <property name="text">
            <string>&amp;Save As...</string>
           </property>
@@ -188,6 +191,7 @@
    <class>BitcoinAmountField</class>
    <extends>QSpinBox</extends>
    <header>bitcoinamountfield.h</header>
+   <container>1</container>
   </customwidget>
  </customwidgets>
  <resources/>

@@ -16,12 +16,11 @@
 #include <vector>
 
 SignVerifyMessageDialog::SignVerifyMessageDialog(QWidget *parent) :
-    QDialog(parent),
+    QDialog(parent,Qt::CustomizeWindowHint | Qt::WindowTitleHint |Qt::WindowCloseButtonHint),
     ui(new Ui::SignVerifyMessageDialog),
     model(0)
 {
     ui->setupUi(this);
-
 #if (QT_VERSION >= 0x040700)
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
     ui->addressIn_SM->setPlaceholderText(tr("Enter a Federation Credit address (e.g. CChN8btKtp3HrXgZJwyBakUzALLZ34nA4J)"));

@@ -14,7 +14,8 @@ EditAddressDialog::EditAddressDialog(Mode mode, QWidget *parent) :
     ui->setupUi(this);
 
     GUIUtil::setupAddressWidget(ui->addressEdit, this);
-
+    setStyleSheet("QPushButton { background : #00007F ;border-radius:10px; border-color: white; color: yellow;  border-style: solid; border-width: 2px;font: bold 10px;min-width: 5em; \
+                   padding: 6px;}");
     switch(mode)
     {
     case NewReceivingAddress:
@@ -84,6 +85,7 @@ bool EditAddressDialog::saveCurrentRow()
 }
 
 void EditAddressDialog::accept()
+
 {
     if(!model)
         return;

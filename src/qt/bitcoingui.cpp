@@ -68,9 +68,8 @@ BitcoinGUI::BitcoinGUI(QWidget *parent) :
 {
     restoreWindowGeometry();
     setWindowTitle(tr("Federation Credit") + " - " + tr("Wallet"));
-    setStyleSheet("QWidget { background : #00005F;border-radius:10px; }  QToolButton { background : #00005F; color: white;border-radius:10px;}QMenu::item {background-color: #00005F; color: white;}QMenuBar::item {background-color: #00005F; color: yellow;}");
+    setStyleSheet("QWidget { background : #00005F;border-radius:10px; }  QToolButton { background : #00005F; color: white;border-radius:10px;}QMenu::item {background-color: #00005F; color: white;}QMenuBar::item {background-color: #00005F; color: yellow;}QMessageBox::{background-color: #00005F; color: white;}");
 
-    
 #ifndef Q_OS_MAC
     QApplication::setWindowIcon(QIcon(":icons/bitcoin"));
     setWindowIcon(QIcon(":icons/bitcoin"));

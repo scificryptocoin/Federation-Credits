@@ -177,11 +177,7 @@ color: rgb(0, 0, 0);</string>
             <string>Sign the message to prove you own this Blakecoin address</string>
            </property>
            <property name="styleSheet">
-            <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(0, 85, 255);
-border-style:solid;
-border-width:2px;
-border-color:black;</string>
+            <string notr="true">QPushButton { background : #00007F ;border-radius:10px; border-color: white; color: yellow;  border-style: solid; border-width: 2px;font: bold 10px;min-width: 5em; padding: 6px;}</string>
            </property>
            <property name="text">
             <string>Sign &amp;Message</string>
@@ -201,11 +197,7 @@ border-color:black;</string>
             <string>Reset all sign message fields</string>
            </property>
            <property name="styleSheet">
-            <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(0, 85, 255);
-border-style:solid;
-border-width:2px;
-border-color:black;</string>
+            <string notr="true">QPushButton { background : #00007F ;border-radius:10px; border-color: white; color: yellow;  border-style: solid; border-width: 2px;font: bold 10px;min-width: 5em; padding: 6px;}</string>
            </property>
            <property name="text">
             <string>Clear &amp;All</string>
@@ -354,11 +346,7 @@ color: rgb(0, 0, 0);</string>
             <string>Verify the message to ensure it was signed with the specified Blakecoin address</string>
            </property>
            <property name="styleSheet">
-            <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(0, 85, 255);
-border-style:solid;
-border-width:2px;
-border-color:black;</string>
+            <string notr="true">QPushButton { background : #00007F ;border-radius:10px; border-color: white; color: yellow;  border-style: solid; border-width: 2px;font: bold 10px;min-width: 5em; padding: 6px;}</string>
            </property>
            <property name="text">
             <string>Verify &amp;Message</string>
@@ -378,11 +366,7 @@ border-color:black;</string>
             <string>Reset all verify message fields</string>
            </property>
            <property name="styleSheet">
-            <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(0, 85, 255);
-border-style:solid;
-border-width:2px;
-border-color:black;</string>
+            <string notr="true">QPushButton { background : #00007F ;border-radius:10px; border-color: white; color: yellow;  border-style: solid; border-width: 2px;font: bold 10px;min-width: 5em; padding: 6px;}</string>
            </property>
            <property name="text">
             <string>Clear &amp;All</string>

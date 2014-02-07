@@ -140,7 +140,7 @@ color: rgb(0, 0, 0);</string>
             <string>Reset all client options to default.</string>
            </property>
            <property name="styleSheet">
-            <string notr="true">color: rgb(170, 0, 0);</string>
+            <string notr="true">QPushButton { background : #00007F ;border-radius:10px; border-color: white; color: red;  border-style: solid; border-width: 2px;font: bold 10px;min-width: 5em; padding: 6px;}</string>
            </property>
            <property name="text">
             <string>&amp;Reset Options</string>
@@ -503,11 +503,7 @@ color: rgb(0, 0, 0);</string>
      <item>
       <widget class="QPushButton" name="okButton">
        <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(0, 85, 255);
-border-style:solid;
-border-width:2px;
-border-color:black;</string>
+        <string notr="true">QPushButton { background : #00007F ;border-radius:10px; border-color: white; color: yellow;  border-style: solid; border-width: 2px;font: bold 10px;min-width: 5em; padding: 6px;}</string>
        </property>
        <property name="text">
         <string>&amp;OK</string>
@@ -517,12 +513,7 @@ border-color:black;</string>
      <item>
       <widget class="QPushButton" name="cancelButton">
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(255, 255, 255);
-color: rgb(0, 0, 0);color: rgb(255, 255, 255);
-background-color: rgb(0, 85, 255);
-border-style:solid;
-border-width:2px;
-border-color:black;</string>
+        <string notr="true">QPushButton { background : #00007F ;border-radius:10px; border-color: white; color: yellow;  border-style: solid; border-width: 2px;font: bold 10px;min-width: 5em; padding: 6px;}</string>
        </property>
        <property name="text">
         <string>&amp;Cancel</string>
@@ -535,11 +526,7 @@ border-color:black;</string>
      <item>
       <widget class="QPushButton" name="applyButton">
        <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(0, 85, 255);
-border-style:solid;
-border-width:2px;
-border-color:black;</string>
+        <string notr="true">QPushButton { background : #00007F ;border-radius:10px; border-color: white; color: yellow;  border-style: solid; border-width: 2px;font: bold 10px;min-width: 5em; padding: 6px;}</string>
        </property>
        <property name="text">
         <string>&amp;Apply</string>
@@ -561,14 +548,14 @@ border-color:black;</string>
    <container>1</container>
   </customwidget>
   <customwidget>
-   <class>QValueComboBox</class>
-   <extends>QComboBox</extends>
-   <header>qvaluecombobox.h</header>
-  </customwidget>
-  <customwidget>
    <class>QValidatedLineEdit</class>
    <extends>QLineEdit</extends>
    <header>qvalidatedlineedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QValueComboBox</class>
+   <extends>QComboBox</extends>
+   <header>qvaluecombobox.h</header>
   </customwidget>
  </customwidgets>
  <resources/>
