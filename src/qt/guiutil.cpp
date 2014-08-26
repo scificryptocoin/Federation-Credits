@@ -433,11 +433,12 @@ HelpMessageBox::HelpMessageBox(QWidget *parent) :
         "  -min                   " + tr("Start minimized") + "\n" +
         "  -splash                " + tr("Show splash screen on startup (default: 1)") + "\n";
 
-    setWindowTitle(tr("FederationCredit-Qt"));
+    setWindowTitle(tr("Federation Credits -command-line help"));
     setTextFormat(Qt::PlainText);
     // setMinimumWidth is ignored for QMessageBox so put in non-breaking spaces to make it wider.
     setText(header + QString(QChar(0x2003)).repeated(50));
     setDetailedText(coreOptions + "\n" + uiOptions);
+    setStyleSheet("QWidget { background : #000000;color: #ffcc00; }");
 }
 
 void HelpMessageBox::printToConsole()

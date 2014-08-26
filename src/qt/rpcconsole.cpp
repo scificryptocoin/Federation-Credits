@@ -186,6 +186,10 @@ RPCConsole::RPCConsole(QWidget *parent) :
 {
     ui->setupUi(this);
 
+    setWindowTitle(tr("Federation Credits") + " - " + tr("Debug console"));
+    setStyleSheet("QWidget { background : #000000; color: #000000; }");
+
+
 #ifndef Q_OS_MAC
     ui->openDebugLogfileButton->setIcon(QIcon(":/icons/export"));
     ui->showCLOptionsButton->setIcon(QIcon(":/icons/options"));
@@ -306,7 +310,7 @@ void RPCConsole::clear()
                 "b { color: #006060; } "
                 );
 
-    message(CMD_REPLY, (tr("Welcome to the Federation Credit RPC console.") + "<br>" +
+    message(CMD_REPLY, (tr("Welcome to the Federation Credits RPC console.") + "<br>" +
                         tr("Use up and down arrows to navigate history, and <b>Ctrl-L</b> to clear screen.") + "<br>" +
                         tr("Type <b>help</b> for an overview of available commands.")), true);
 }

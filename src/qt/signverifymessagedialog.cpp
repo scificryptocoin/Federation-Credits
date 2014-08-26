@@ -23,11 +23,11 @@ SignVerifyMessageDialog::SignVerifyMessageDialog(QWidget *parent) :
     ui->setupUi(this);
 #if (QT_VERSION >= 0x040700)
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->addressIn_SM->setPlaceholderText(tr("Enter a Federation Credit address (e.g. CChN8btKtp3HrXgZJwyBakUzALLZ34nA4J)"));
+    ui->addressIn_SM->setPlaceholderText(tr("Enter a Federation Credits address (e.g. CChN8btKtp3HrXgZJwyBakUzALLZ34nA4J)"));
     ui->signatureOut_SM->setPlaceholderText(tr("Click \"Sign Message\" to generate signature"));
 
-    ui->addressIn_VM->setPlaceholderText(tr("Enter a Federation Credit address (e.g. CChN8btKtp3HrXgZJwyBakUzALLZ34nA4J)"));
-    ui->signatureIn_VM->setPlaceholderText(tr("Enter Federation Credit signature"));
+    ui->addressIn_VM->setPlaceholderText(tr("Enter a Federation Credits address (e.g. CChN8btKtp3HrXgZJwyBakUzALLZ34nA4J)"));
+    ui->signatureIn_VM->setPlaceholderText(tr("Enter Federation Credits signature"));
 #endif
 
     GUIUtil::setupAddressWidget(ui->addressIn_SM, this);

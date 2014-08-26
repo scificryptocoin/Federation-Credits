@@ -1,12 +1,12 @@
 TEMPLATE = app
 TARGET = federationcredit-qt
 macx:TARGET = "FederationCredit-Qt"
-VERSION = 0.2.2
+VERSION = 0.2.5
 INCLUDEPATH += src src/json src/qt
-QT += network
+QT += core gui network widgets
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE
-CONFIG += no_include_pwd
-CONFIG += thread
+DEFINES += WIN32_LEAN_AND_MEAN _WIN32_WINNT=0x00601 WINVER=0x0601
+CONFIG += static
 
 # for boost 1.37, add -mt to the boost libraries
 # use: qmake BOOST_LIB_SUFFIX=-mt
@@ -28,6 +28,16 @@ CONFIG += thread
 #MINIUPNPC_LIB_SUFFIX=-miniupnpc
 #MINIUPNPC_INCLUDE_PATH=C:\deps\miniupnpc
 #MINIUPNPC_LIB_PATH=C:\deps\miniupnpc
+BOOST_LIB_SUFFIX=-mgw48-mt-s-1_55
+BOOST_INCLUDE_PATH=C:/deps/boost_1_55_0
+BOOST_LIB_PATH=C:/deps/boost_1_55_0/stage/lib
+BDB_INCLUDE_PATH=C:/deps/db-4.8.30.NC/build_unix
+BDB_LIB_PATH=C:/deps/db-4.8.30.NC/build_unix
+OPENSSL_INCLUDE_PATH=C:/deps/openssl-1.0.1g/include
+OPENSSL_LIB_PATH=C:/deps/openssl-1.0.1g
+MINIUPNPC_INCLUDE_PATH=C:/deps/
+MINIUPNPC_LIB_PATH=C:/deps/miniupnpc
+
 
 OBJECTS_DIR = build
 MOC_DIR = build

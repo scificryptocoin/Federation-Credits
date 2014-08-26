@@ -29,7 +29,7 @@ SplashScreen::SplashScreen(const QPixmap &pixmap, Qt::WindowFlags f) :
     
     QPixmap newPixmap;
     if(GetBoolArg("-testnet")) {
-        newPixmap     = QPixmap(":/images/splash");
+        newPixmap     = QPixmap(":/images/splash_testnet");
     }
     else {
         newPixmap     = QPixmap(":/images/splash");

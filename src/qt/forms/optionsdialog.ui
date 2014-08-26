@@ -14,7 +14,7 @@
    <string>Options</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(0, 0, 127);</string>
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
   </property>
   <property name="modal">
    <bool>true</bool>
@@ -23,7 +23,7 @@
    <item>
     <widget class="QTabWidget" name="tabWidget">
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 0, 127);</string>
+      <string notr="true">background-color:rgb(0,0,127);</string>
      </property>
      <property name="tabPosition">
       <enum>QTabWidget::North</enum>
@@ -32,6 +32,9 @@
       <number>0</number>
      </property>
      <widget class="QWidget" name="tabMain">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
       <attribute name="title">
        <string>&amp;Main</string>
       </attribute>
@@ -155,6 +158,9 @@ color: rgb(0, 0, 0);</string>
       </layout>
      </widget>
      <widget class="QWidget" name="tabNetwork">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
       <attribute name="title">
        <string>&amp;Network</string>
       </attribute>
@@ -311,6 +317,9 @@ color: rgb(0, 0, 0);</string>
       </layout>
      </widget>
      <widget class="QWidget" name="tabWindow">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
       <attribute name="title">
        <string>&amp;Window</string>
       </attribute>
@@ -357,6 +366,9 @@ color: rgb(0, 0, 0);</string>
       </layout>
      </widget>
      <widget class="QWidget" name="tabDisplay">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
       <attribute name="title">
        <string>&amp;Display</string>
       </attribute>

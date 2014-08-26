@@ -174,7 +174,7 @@ bool AppInit(int argc, char* argv[])
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
             // First part of help message is specific to federationcreditd / RPC client
-            std::string strUsage = _("FederationCredit version") + " " + FormatFullVersion() + "\n\n" +
+            std::string strUsage = _("Federation Credits version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
                   "  federationcreditd [options]                     " + "\n" +
                   "  federationcreditd [options] <command> [params]  " + _("Send command to -server or federationcreditd") + "\n" +
@@ -428,7 +428,7 @@ void ThreadImport(std::vector<boost::filesystem::path> vImportFiles)
     }
 
     // -loadblock=
-    BOOST_FOREACH(boost::filesystem::path &path, vImportFiles) {
+    BOOST_FOREACH(boost::filesystem::path &path, vImportFiles) { // added token ; before { maybe a mistype?????????????????
         FILE *file = fopen(path.string().c_str(), "rb");
         if (file) {
             CImportingNow imp;
@@ -632,7 +632,7 @@ bool AppInit2(boost::thread_group& threadGroup)
     if (GetBoolArg("-shrinkdebugfile", !fDebug))
         ShrinkDebugFile();
     printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    printf("FederationCredit version %s (%s)\n", FormatFullVersion().c_str(), CLIENT_DATE.c_str());
+    printf("Federation Credits version %s (%s)\n", FormatFullVersion().c_str(), CLIENT_DATE.c_str());
     printf("Using OpenSSL version %s\n", SSLeay_version(SSLEAY_VERSION));
     if (!fLogTimestamps)
         printf("Startup time: %s\n", DateTimeStrFormat("%Y-%m-%d %H:%M:%S", GetTime()).c_str());
@@ -642,7 +642,7 @@ bool AppInit2(boost::thread_group& threadGroup)
     std::ostringstream strErrors;
 
     if (fDaemon)
-        fprintf(stdout, "FederationCredit server starting\n");
+        fprintf(stdout, "Federation Credits server starting\n");
 
     if (nScriptCheckThreads) {
         printf("Using %u threads for script verification\n", nScriptCheckThreads);
@@ -911,7 +911,7 @@ bool AppInit2(boost::thread_group& threadGroup)
     // As the program has not fully started yet, Shutdown() is possibly overkill.
     if (fRequestShutdown)
     {
-        printf("Shutdown requested. Exiting.\n");
+        printf("Shutdown requested. ...Exiting.\n");
         return false;
     }
     printf(" block index %15"PRI64d"ms\n", GetTimeMillis() - nStart);
@@ -964,10 +964,10 @@ bool AppInit2(boost::thread_group& threadGroup)
             InitWarning(msg);
         }
         else if (nLoadWalletRet == DB_TOO_NEW)
-            strErrors << _("Error loading wallet.dat: Wallet requires newer version of Federation Credit") << "\n";
+            strErrors << _("Error loading wallet.dat: Wallet requires newer version of Federation Credits client.") << "\n";
         else if (nLoadWalletRet == DB_NEED_REWRITE)
         {
-            strErrors << _("Wallet needed to be rewritten: restart Federation Credit to complete") << "\n";
+            strErrors << _("Wallet needed to be rewritten: restart Federation Credits client to complete") << "\n";
             printf("%s", strErrors.str().c_str());
             return InitError(strErrors.str());
         }

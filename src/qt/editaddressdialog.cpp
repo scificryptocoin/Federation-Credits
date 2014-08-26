@@ -102,7 +102,7 @@ void EditAddressDialog::accept()
             break;
         case AddressTableModel::INVALID_ADDRESS:
             QMessageBox::warning(this, windowTitle(),
-                tr("<FONT COLOR=red>The entered address \"%1\" is not a valid Federation Credit address.").arg(ui->addressEdit->text()),
+                tr("<FONT COLOR=red>The entered address \"%1\" is not a valid Federation Credits address.").arg(ui->addressEdit->text()),
                 QMessageBox::Ok, QMessageBox::Ok);
             break;
         case AddressTableModel::DUPLICATE_ADDRESS:
