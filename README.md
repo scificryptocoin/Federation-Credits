@@ -1,8 +1,9 @@
 Forked from Bitcoin reference wallet 0.8.5
 
-Federation Credit Wallet
+Federation Credit Client/Daemon/wallet
 
 http://www.scificoin.org
+http://www.scificointalk.com
 
 Blake-256(optimized) faster than scrypt and faster than sha256 in C (asm is still faster for sha256d)
 
@@ -10,10 +11,11 @@ The algorithm was written as a candidate for sha3, Based on round one candidate 
 
 Tweaks Removed some of the double hashing from the wallet as it is wasteful on compute, No changes to the ecdsa public/private function as that has proven to be secure so far on bitcoin.
 
+federationcredit.conf file included. To use copy .conf file to directory C:\Users\YourName\AppData\Roaming\FederationCredit in windows.
 
 What is Federation Credits?
 
-Federation credits is a Scifi themed version of Blakecoin.
+Federation Credits is a Scifi themed version of Blakecoin.
 
 Blakecoin is an experimental new digital currency that enables instant payments to
 anyone, anywhere in the world. Blakecoin uses peer-to-peer technology to operate
@@ -27,8 +29,8 @@ git-core build-essential libssl-dev libboost-all-dev libdb5.1-dev libdb5.1++-dev
 
 License
 
-Federation Credit is released under the terms of the MIT license. See `COPYING` for more
+Federation Credits is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
 
-
+Federation Credits v2.5.6 -Black edition
 

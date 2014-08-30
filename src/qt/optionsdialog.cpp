@@ -21,6 +21,7 @@ OptionsDialog::OptionsDialog(QWidget *parent) :
     fProxyIpValid(true)
 {
     ui->setupUi(this);
+    setStyleSheet("QWidget { background : #000000; color: #000000;}");
 
     /* Network elements init */
 #ifndef USE_UPNP

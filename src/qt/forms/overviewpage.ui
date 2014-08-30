@@ -27,7 +27,7 @@
        <color alpha="255">
         <red>0</red>
         <green>0</green>
-        <blue>127</blue>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
@@ -99,7 +99,7 @@
        <color alpha="255">
         <red>0</red>
         <green>0</green>
-        <blue>127</blue>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
@@ -108,7 +108,7 @@
        <color alpha="255">
         <red>0</red>
         <green>0</green>
-        <blue>127</blue>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
@@ -200,7 +200,7 @@
        <color alpha="255">
         <red>0</red>
         <green>0</green>
-        <blue>127</blue>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
@@ -272,7 +272,7 @@
        <color alpha="255">
         <red>0</red>
         <green>0</green>
-        <blue>127</blue>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
@@ -281,7 +281,7 @@
        <color alpha="255">
         <red>0</red>
         <green>0</green>
-        <blue>127</blue>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
@@ -373,7 +373,7 @@
        <color alpha="255">
         <red>0</red>
         <green>0</green>
-        <blue>127</blue>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
@@ -445,7 +445,7 @@
        <color alpha="255">
         <red>0</red>
         <green>0</green>
-        <blue>127</blue>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
@@ -454,7 +454,7 @@
        <color alpha="255">
         <red>0</red>
         <green>0</green>
-        <blue>127</blue>
+        <blue>0</blue>
        </color>
       </brush>
      </colorrole>
@@ -540,7 +540,7 @@
    <bool>false</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(0, 0, 127);</string>
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
   </property>
   <layout class="QVBoxLayout" name="topLayout">
    <item>
